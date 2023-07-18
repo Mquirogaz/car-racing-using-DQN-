@@ -40,27 +40,25 @@ La metodología utilizada en este proyecto consta de los siguientes pasos:
 
 El repositorio está organizado de la siguiente manera:
 
-├── README.md
-├── data
-│ ├── raw_data
-│ ├── processed_data
-│ 
-├── notebooks
-│ ├── exploratory_analysis.ipynb
-│ ├── data_preprocessing.ipynb
-│ ├── modeling.ipynb
-│
-├── src
-│ ├── data_preprocessing.py
-│ ├── model.py
-├── models
-│ ├── car_racingv2-ipynb
-│ └── model.py
-│ └── dqn_trained.pt
-├── reports
-│ ├── 1 =Grafico con mayor cantidad de iteraciones posibles por reestricciones de hardware
-│ ├── video.mp4 animacion del comportamiento del modelo entrenado
-├── requirements.txt
+- README.md
+- data
+  - raw_data
+  - processed_data
+- notebooks
+  - exploratory_analysis.ipynb
+  - data_preprocessing.ipynb
+  - modeling.ipynb
+- src
+  - data_preprocessing.py
+  - model.py
+- models
+  - car_racingv2.ipynb
+  - model.py
+  - dqn_trained.pt
+- reports
+  - 1 - Grafico con mayor cantidad de iteraciones posibles por restricciones de hardware
+  - video.mp4 - animación del comportamiento del modelo entrenado
+- requirements.txt
 
 
 
