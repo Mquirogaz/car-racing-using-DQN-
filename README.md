@@ -93,6 +93,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import matplotlib.animation as animation
 import cv2
+```
 Para instalar las dependencias, ejecute el siguiente comando:
 
 pip install numpy random gym opencv-python tensorflow
