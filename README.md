@@ -83,13 +83,16 @@ La estructura del repositorio se organiza de la siguiente manera:
 ## Dependencias
 
 Para ejecutar este proyecto, se requiere la instalación de las siguientes bibliotecas de Python:
-
-- numpy
-- random
-- gym
-- opencv-python
-- tensorflow
-
+```python
+import numpy as np
+import gymnasium as gym
+import matplotlib.pyplot as plt
+from IPython.display import HTML
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import matplotlib.animation as animation
+import cv2
 Para instalar las dependencias, ejecute el siguiente comando:
 
 pip install numpy random gym opencv-python tensorflow
