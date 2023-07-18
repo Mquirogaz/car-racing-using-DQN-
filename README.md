@@ -132,7 +132,7 @@ Este ejemplo se basa en la estructura y configuración previamente definidas en 
 
 A continuación se muestra un ejemplo del rendimiento del modelo:
 
-![Video de ejemplo](models/video.mp4)
+![Video de ejemplo](model.gif)
 
 ## Ejemplos reproducibles
 
