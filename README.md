@@ -28,7 +28,7 @@ La metodología utilizada en este proyecto consta de los siguientes pasos:
 5. **Implementación de DQN:** Se implementa el algoritmo DQN, que utiliza la CNN para estimar la función de valor Q y seleccionar acciones, y el buffer de repetición para el entrenamiento.
 6. **Evaluación del agente:** El rendimiento del agente se evalúa constantemente. Se proporciona una visualización del rendimiento del agente a lo largo del tiempo como un grafico que se actualiza cada cierto intervalo de iteraciones y que muestra la recompensa promedio a medida que avanza el entrenamiento. 
 
-![image.png](attachment:image.png)
+![image.png](1.bmp)
 
 
 7. **Guardado del modelo:** Una vez finalizado el entrenamiento, se guarda el estado del modelo para su posterior uso.
