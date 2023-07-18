@@ -12,7 +12,7 @@ El aprendizaje por refuerzo es un enfoque del aprendizaje automático en el que 
 
 Se uso el el juego CarRacing-v2, debido al que la version v0 no se encontraba disponible. Este juego, es un entorno de simulación en el que el agente controla un automóvil y debe recorrer una pista de carreras, evitando obstáculos y maximizando el puntaje obtenido. 
 
-El enfoque utilizado en este proyecto es una combinacion de una CNN (convolutional neural network) y representacion por imagenes. La CNN usa los fotogramas pre procesados dfel juego como entrada y genera una salida que corresponde a una estimacion de los que corresponderan a la accion del agente. Utilizando técnicas como la memoria de repetición y la actualización recursiva, el agente aprende mejora la calidad de sus decisiones en funcion del puntaje. 
+El enfoque utilizado en este proyecto es una combinacion de una CNN (convolutional neural network) y representacion por imagenes. La CNN usa los fotogramas pre procesados dfel juego como entrada y genera una salida que corresponde a una estimacion de los valores que corresponderan a la accion del agente. Utilizando técnicas como la memoria de repetición y la actualización recursiva, el agente aprende mejora la calidad de sus decisiones en funcion del puntaje. 
 
 El objetivo final, es que el agente pueda conducir de forma competente un auto en el juego, superando obstaculos y maximizando su puntaje a travez del aprendizaje por refuerzo. 
 
@@ -21,7 +21,7 @@ El objetivo final, es que el agente pueda conducir de forma competente un auto e
 
 La metodología utilizada en este proyecto consta de los siguientes pasos:
 
-1. **Creación del entorno del juego:** Utilizando la biblioteca `gym`, se crea un entorno para el juego de carreras de coches 'CarRacing-v2'.
+1. **Creación del entorno del juego:** Utilizando la biblioteca `gym`, se crea un entorno para el juego de carreras de autos 'CarRacing-v2'.
 2. **Preprocesamiento de las imágenes:** Se procesan las imágenes del juego para convertirlas en imágenes en escala de grises de 84x84. El reescalado y el filtro de colores son necesarios para reducir el consumo de recursos de hardware. 
 3. **Implementación de la red neuronal convolucional (CNN):** Se utiliza una CNN para aprender a estimar la función de valor Q (funcion de calidad. Representa la calidad de la accion tomada por el agente). Esta red toma como entrada la representación de la imagen del estado actual y proporciona una estimación de la función de valor para cada acción posible.
 4. **Uso de un Buffer de Repetición:** Se almacenan las etapas que sigue el agente (estado actual, acción que ejecuta, recompensa por la accion, estado siguiente) en un buffer de repetición. Este buffer se utiliza luego para generar muestras de entrenamiento.
@@ -118,7 +118,7 @@ Los pasos utilizados en este proyecto para desarrollar el agente de aprendizaje 
 
 2. Los datos del juego se preprocesaron utilizando técnicas de cambio de tamaño y conversión a escala de grises para analizarlos y modelarlos posteriormente.
 
-3. Para representar la función de valor del agente y determinar el mejor curso de acción, se implementó una arquitectura CNN llamada QNetworkDueling.
+3. Para representar la función de valor del agente y determinar el mejor curso de acción, se implementó una arquitectura CNN llamada CNNActionValue.
 
 4. El agente fue entrenado utilizando el algoritmo de aprendizaje por refuerzo DQN, interactuando con el entorno CarRacing-v2 y actualizando su modelo de valor en función de las recompensas recibidas.
 
